@@ -10,7 +10,7 @@ export WEBSITE="https://chimeraos.org"
 export DOCUMENTATION_URL="https://chimeraos.org/about"
 export BUG_REPORT_URL="https://github.com/ChimeraOS/chimeraos/issues"
 
-export KERNEL_PACKAGE="linux-chimeraos"
+export KERNEL_PACKAGE="linux-neroreflex"
 export KERNEL_PACKAGE_ORIGIN="local"
 
 export PACKAGES="\
@@ -137,8 +137,9 @@ export PACKAGES="\
 "
 
 export PACKAGE_OVERRIDES="\
-	https://github.com/ChimeraOS/linux-chimeraos/releases/download/v6.8-chos1-1/linux-chimeraos-6.8.chos1-1-x86_64.pkg.tar.zst \
-	https://github.com/ChimeraOS/linux-chimeraos/releases/download/v6.8-chos1-1/linux-chimeraos-headers-6.8.chos1-1-x86_64.pkg.tar.zst \
+	https://github.com/rog-ally-gaming/linux-chimeraos/releases/download/6.1.81.nrflx3-2/linux-neroreflex-6.1.81.nrflx3-2-x86_64.pkg.tar.zst \
+	https://github.com/rog-ally-gaming/linux-chimeraos/releases/download/6.1.81.nrflx3-2/linux-neroreflex-api-headers-6.1.81.nrflx3-2-x86_64.pkg.tar.zst \
+	https://github.com/rog-ally-gaming/linux-chimeraos/releases/download/6.1.81.nrflx3-2/linux-neroreflex-headers-6.1.81.nrflx3-2-x86_64.pkg.tar.zst \
 	https://github.com/rog-ally-gaming/rogue-enemy/releases/download/v2.2.4-1/rogue-enemy-2.2.4-1-x86_64.pkg.tar.zst \
 	https://github.com/rog-ally-gaming/asusctl/releases/download/5.0.7-1/asusctl-5.0.7-1-x86_64.pkg.tar.zst \
 	https://github.com/rog-ally-gaming/asusctl/releases/download/5.0.7-1/rog-control-center-5.0.7-1-x86_64.pkg.tar.zst \
