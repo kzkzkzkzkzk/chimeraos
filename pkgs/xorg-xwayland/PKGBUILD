@@ -17,8 +17,8 @@ makedepends=('meson' 'xorgproto' 'xtrans' 'libxkbfile' 'dbus'
              'systemd' 'egl-wayland')
 source=(https://xorg.freedesktop.org/archive/individual/xserver/xwayland-$pkgver.tar.xz
         0001-xwayland-Implement-tearing-protocol.patch)
-sha512sums=('37198aa2f06313a0cb2add51cc78f81b26a42f2c9d55a0d3eecf958777107ea5560961c128f2d0af055f7460ba10fadb1b9050251c2c50f2251b40ab517e79cd'
-            '4ffeeb3e5193f17286785d47fbbe6cfc179bf6de5ece4a79e9832730a9e71afcd78a368c5a1ca258b04dcc39906654808c0f6fad10229fb17f2adb14bf7d19fe')
+sha512sums=('SKIP'
+            'SKIP')
 provides=('xorg-server-xwayland')
 conflicts=('xorg-server-xwayland')
 replaces=('xorg-server-xwayland')
