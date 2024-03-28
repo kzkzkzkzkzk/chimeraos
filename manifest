@@ -173,7 +173,6 @@ export AUR_PACKAGES="\
 	gamescope-session-steam-git \
 	gamescope-session-steam-plus-git \
 	hhfc-git \
-	handygccs-git \
 	legendary \
 	lib32-gperftools \
 	libretro-dosbox-pure-git \
