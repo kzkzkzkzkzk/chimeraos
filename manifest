@@ -138,6 +138,7 @@ export PACKAGES="\
 	libffado \
 	realtime \
 	qtractor \
+	dbus \
 "
 
 export PACKAGE_OVERRIDES="\
