@@ -43,16 +43,6 @@ export PACKAGES="\
 	fuse2 \
 	fwupd \
 	git \
-	gnome-browser-connector \
-	gnome-console \
-	gnome-control-center \
-	gnome-disk-utility \
-	gnome-keyring \
-	gnome-session \
-	gnome-shell \
-	gnome-software \
-	gnome-system-monitor \
-	gnome-text-editor \
 	gst-plugin-pipewire \
 	gvfs-smb \
 	gzip \
@@ -128,13 +118,30 @@ export PACKAGES="\
 	wireplumber \
 	wqy-zenhei \
 	xdg-desktop-portal \
-	xdg-desktop-portal-gnome \
-	xdg-desktop-portal-wlr \
+	xdg-desktop-portal-kde \
 	xdg-user-dirs-gtk \
 	xf86-video-amdgpu \
 	xorg-server \
 	xz \
 	zip \
+	plasma \
+	plasma-desktop \
+	kcalc \
+	kwin \
+	sddm \
+	ark \
+	konsole \
+	kdeconnect \
+	kdenetwork-filesharing \
+	dolphin-plugins \
+	qjackctl \
+	jack2 \
+	lib32-jack2 \
+	jack2-dbus \
+	libffado \
+	pipewire-jack-client \
+	realtime \
+	qtractor \
 "
 
 export PACKAGE_OVERRIDES="\
