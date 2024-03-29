@@ -87,7 +87,6 @@ export PACKAGES="\
 	p7zip \
 	pipewire \
 	pipewire-alsa \
-	pipewire-jack \
 	pipewire-pulse \
 	podman \
 	pulsemixer \
