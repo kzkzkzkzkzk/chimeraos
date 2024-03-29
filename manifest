@@ -1,6 +1,6 @@
 #! /bin/bash
 
-export VERSION="46"
+export VERSION="kz"
 export SYSTEM_DESC="ChimeraOS"
 export SYSTEM_NAME="chimeraos"
 export USERNAME="gamer"
@@ -58,10 +58,7 @@ export PACKAGES="\
 	gzip \
 	haveged \
 	htop \
-	intel-gpu-tools \
-	intel-media-driver \
 	intel-ucode \
-	intel-undervolt \
 	less \
 	lib32-curl \
 	lib32-fontconfig \
@@ -71,7 +68,6 @@ export PACKAGES="\
 	lib32-libxinerama \
 	lib32-libxcrypt-compat \
 	lib32-libva \
-	lib32-libva-intel-driver \
 	lib32-libva-vdpau-driver \
 	lib32-openal \
 	lib32-pipewire \
@@ -79,23 +75,6 @@ export PACKAGES="\
 	lib32-vulkan-icd-loader \
 	libcurl-gnutls \
 	libidn11 \
-	libretro-beetle-pce-fast \
-	libretro-beetle-psx-hw \
-	libretro-citra \
-	libretro-desmume \
-	libretro-dolphin \
-	libretro-flycast \
-	libretro-genesis-plus-gx \
-	libretro-kronos \
-	libretro-mesen-s\
-	libretro-mgba \
-	libretro-mupen64plus-next \
-	libretro-nestopia \
-	libretro-picodrive \
-	libretro-ppsspp \
-	libretro-shaders-slang \
-	libretro-snes9x \
-	libva-intel-driver \
 	libva-vdpau-driver \
 	libxcrypt-compat \
 	libxss \
@@ -159,13 +138,13 @@ export PACKAGES="\
 "
 
 export PACKAGE_OVERRIDES="\
-	https://github.com/ChimeraOS/linux-chimeraos/releases/download/v6.8.2-chos1-1/linux-chimeraos-6.8.2.chos1-1-x86_64.pkg.tar.zst \
-	https://github.com/ChimeraOS/linux-chimeraos/releases/download/v6.8.2-chos1-1/linux-chimeraos-headers-6.8.2.chos1-1-x86_64.pkg.tar.zst \
+	https://github.com/rog-ally-gaming/linux-chimeraos/releases/download/6.1.81.nrflx3-2/linux-neroreflex-6.1.81.nrflx3-2-x86_64.pkg.tar.zst \
+	https://github.com/rog-ally-gaming/linux-chimeraos/releases/download/6.1.81.nrflx3-2/linux-neroreflex-api-headers-6.1.81.nrflx3-2-x86_64.pkg.tar.zst \
+	https://github.com/rog-ally-gaming/linux-chimeraos/releases/download/6.1.81.nrflx3-2/linux-neroreflex-headers-6.1.81.nrflx3-2-x86_64.pkg.tar.zst \
 	https://github.com/ChimeraOS/mesa-chimeraos/releases/download/24.0.4-chos1-1/lib32-libva-mesa-driver-1--24.0.4.chos1-1-x86_64.pkg.tar.zst \
 	https://github.com/ChimeraOS/mesa-chimeraos/releases/download/24.0.4-chos1-1/lib32-mesa-1--24.0.4.chos1-1-x86_64.pkg.tar.zst \
 	https://github.com/ChimeraOS/mesa-chimeraos/releases/download/24.0.4-chos1-1/lib32-mesa-vdpau-1--24.0.4.chos1-1-x86_64.pkg.tar.zst \
 	https://github.com/ChimeraOS/mesa-chimeraos/releases/download/24.0.4-chos1-1/lib32-opencl-rusticl-mesa-1--24.0.4.chos1-1-x86_64.pkg.tar.zst \
-	https://github.com/ChimeraOS/mesa-chimeraos/releases/download/24.0.4-chos1-1/lib32-vulkan-intel-1--24.0.4.chos1-1-x86_64.pkg.tar.zst \
 	https://github.com/ChimeraOS/mesa-chimeraos/releases/download/24.0.4-chos1-1/lib32-vulkan-mesa-layers-1--24.0.4.chos1-1-x86_64.pkg.tar.zst \
 	https://github.com/ChimeraOS/mesa-chimeraos/releases/download/24.0.4-chos1-1/lib32-vulkan-radeon-1--24.0.4.chos1-1-x86_64.pkg.tar.zst \
 	https://github.com/ChimeraOS/mesa-chimeraos/releases/download/24.0.4-chos1-1/lib32-vulkan-swrast-1--24.0.4.chos1-1-x86_64.pkg.tar.zst \
@@ -173,12 +152,10 @@ export PACKAGE_OVERRIDES="\
 	https://github.com/ChimeraOS/mesa-chimeraos/releases/download/24.0.4-chos1-1/mesa-1--24.0.4.chos1-1-x86_64.pkg.tar.zst \
 	https://github.com/ChimeraOS/mesa-chimeraos/releases/download/24.0.4-chos1-1/mesa-vdpau-1--24.0.4.chos1-1-x86_64.pkg.tar.zst \
 	https://github.com/ChimeraOS/mesa-chimeraos/releases/download/24.0.4-chos1-1/opencl-rusticl-mesa-1--24.0.4.chos1-1-x86_64.pkg.tar.zst \
-	https://github.com/ChimeraOS/mesa-chimeraos/releases/download/24.0.4-chos1-1/vulkan-intel-1--24.0.4.chos1-1-x86_64.pkg.tar.zst \
 	https://github.com/ChimeraOS/mesa-chimeraos/releases/download/24.0.4-chos1-1/vulkan-mesa-layers-1--24.0.4.chos1-1-x86_64.pkg.tar.zst \
 	https://github.com/ChimeraOS/mesa-chimeraos/releases/download/24.0.4-chos1-1/vulkan-radeon-1--24.0.4.chos1-1-x86_64.pkg.tar.zst \
 	https://github.com/ChimeraOS/mesa-chimeraos/releases/download/24.0.4-chos1-1/vulkan-swrast-1--24.0.4.chos1-1-x86_64.pkg.tar.zst \
-	https://archive.archlinux.org/repos/2023/06/28/extra/os/x86_64/libretro-pcsx2-11900-2-x86_64.pkg.tar.zst \
-	https://archive.archlinux.org/packages/l/libretro-mame/libretro-mame-85763-1-x86_64.pkg.tar.zst \
+	https://github.com/rog-ally-gaming/rogue-enemy/releases/download/v2.2.4-1/rogue-enemy-2.2.4-1-x86_64.pkg.tar.zst \
 "
 
 # Each entry is the clone url (https://aur.archlinux.org/{AUR_PACKAGE}.git)
@@ -186,23 +163,16 @@ export PACKAGE_OVERRIDES="\
 # Check on the AUR webpage if you are unsure
 export AUR_PACKAGES="\
 	asusctl \
-	antimicrox \
-	ayaneo-platform-dkms-git \
-	ayn-platform-dkms-git \
 	bcm20702a1-firmware \
-  	bmi260-dkms \
 	boxtron \
 	chimera \
 	chimeraos-device-quirks-git \
 	downgrade \
-	evdev-keepalive \
 	frzr \
 	gamescope-session-steam-git \
 	gamescope-session-steam-plus-git \
-	handygccs-git \
 	hhfc-git \
 	legendary \
-	lib32-gamescope-plus \
 	lib32-gperftools \
 	libretro-dosbox-pure-git \
 	libretro-opera-git \
@@ -211,12 +181,9 @@ export AUR_PACKAGES="\
 	libretro-virtualjaguar-git \
 	kanit-font \
 	nintendo-udev \
-	opengamepadui-bin \
-	opengamepadui-session-git \
 	pikaur \
 	powerstation-bin \
 	python-vdf \
-	r8152-dkms \
 	retroarch-autoconfig-udev-git \
 	rtl8812au-dkms-git \
 	rtl8814au-dkms-git \
@@ -235,14 +202,16 @@ export SERVICES="\
 	bluetooth \
 	bluetooth-workaround \
 	fstrim.timer \
-	handycon \
+	rogue-enemy \
 	haveged \
 	home-swapfile.swap \
-	lightdm \
 	powerstation \
 	sshd \
+	systemd-sysext \
+	sddm \
 	systemd-timesyncd \
 	swapfile \
+
 "
 
 export USER_SERVICES="\
@@ -264,14 +233,41 @@ export FILES_TO_DELETE="\
 "
 
 postinstallhook() {
+	# chimeraos requires ladspa-host and the default provider is ardour
+	# qtractor is installed to spare space so it's safe to remove ardour
+	# pacman -R --noconfirm ardour # turns out ardour doesn't get installed when qtractor is being specified
+
+	## now all orphan dependencies must be removed (to spare space)
+	#pacman -Qqd | pacman -Rsu - 
+
+	# Remove discover software
+	pacman -Rs --noconfirm discover
+	
+	#yes|pacman -Scc
+	ls -lah /var/cache/pacman
+
+	mkdir -p /etc/sddm.conf.d
+	echo "[General]" > /etc/sddm.conf.d/steam-deckify.conf
+	echo "DisplayServer=wayland" >> /etc/sddm.conf.d/steam-deckify.conf
+	echo "[Autologin]" >> /etc/sddm.conf.d/steam-deckify.conf
+	echo "Relogin=true" >> /etc/sddm.conf.d/steam-deckify.conf
+	echo "Session=steamos.desktop" >> /etc/sddm.conf.d/steam-deckify.conf
+	echo "User=${USERNAME}" >> /etc/sddm.conf.d/steam-deckify.conf
+	echo "[X11]" >> /etc/sddm.conf.d/steam-deckify.conf
+	echo "# Janky workaround for wayland sessions not stopping in sddm, kills" >> /etc/sddm.conf.d/steam-deckify.conf
+	echo "# all active sddm-helper sessions on teardown" >> /etc/sddm.conf.d/steam-deckify.conf
+	echo "DisplayStopCommand=/usr/bin/gamescope-wayland-teardown-workaround" >> /etc/sddm.conf.d/steam-deckify.conf
+
 	# Add sudo permissions
 	sed -i '/%wheel ALL=(ALL:ALL) ALL/s/^# //g' /etc/sudoers
 	echo "${USERNAME} ALL=(ALL) NOPASSWD: /usr/bin/dmidecode -t 11
 	" > /etc/sudoers.d/steam
 	echo "${USERNAME} ALL=(ALL) NOPASSWD: /usr/bin/chimera-session-use-gamescope
-	${USERNAME} ALL=(ALL) NOPASSWD: /usr/bin/chimera-session-use-lightdm
 	${USERNAME} ALL=(ALL) NOPASSWD: /usr/share/chimera/bin/power-tool
 	" > /etc/sudoers.d/chimera
+
+	# Add chrt permission
+	echo "${USERNAME} ALL=(ALL) NOPASSWD: /usr/bin/chrt" > /etc/sudoers.d/realtime
 
 	# disable retroarch menu in joypad configs
 	find /usr/share/libretro/autoconfig -type f -name '*.cfg' | xargs -d '\n' sed -i '/input_menu_toggle_btn/d'
@@ -284,10 +280,10 @@ postinstallhook() {
 	popd
 
 	# Remove build tools for slimmer image
-	rm /usr/share/libalpm/hooks/70-dkms-install.hook
-	rm /usr/share/libalpm/hooks/70-dkms-upgrade.hook
-	rm /usr/share/libalpm/hooks/71-dkms-remove.hook
-	pacman --noconfirm -Rnsdd make gcc dkms ${KERNEL_PACKAGE}-headers
+	#rm /usr/share/libalpm/hooks/70-dkms-install.hook
+	#rm /usr/share/libalpm/hooks/70-dkms-upgrade.hook
+	#rm /usr/share/libalpm/hooks/71-dkms-remove.hook
+	#pacman --noconfirm -Rnsdd make gcc dkms ${KERNEL_PACKAGE}-headers
 
 	# remove dolphin standalone emulator files (only need /usr/share/dolphin-emu/sys)
 	rm /usr/bin/dolphin-emu
@@ -298,22 +294,22 @@ postinstallhook() {
 
 	# clean up desktop shortcuts
 	sed -i -e 's/Name=Steam (Runtime)/Name=Steam/' /usr/share/applications/steam.desktop
-	find /usr/share/applications/* | \
-	grep -v org.chimeraos.Gamescope.desktop | \
-	grep -v org.chimeraos.app.desktop | \
-	grep -v org.gnome.Console.desktop | \
-	grep -v org.gnome.DiskUtility.desktop | \
-	grep -v org.gnome.FileRoller.desktop | \
-	grep -v org.gnome.Nautilus.desktop | \
-	grep -v org.gnome.Settings.desktop | \
-	grep -v org.gnome.Software.desktop | \
-	grep -v org.gnome.TextEditor.desktop | \
-	grep -v steam.desktop | \
-	xargs -I {} sh -c "echo NoDisplay=true >> {}"
 
 	# force -steamdeck option in desktop mode to prevent constant steam updates
 	sed -i 's,Exec=/usr/bin/steam-runtime,Exec=/usr/bin/steam-runtime -steamdeck,' /usr/share/applications/steam.desktop
 
 	# set permissions for intel_gpu_top and mangohud
 	setcap cap_perfmon=+ep /usr/bin/intel_gpu_top
+
+	# remove r8169 blacklist in /usr, leave it up to the user
+	rm -rf /usr/lib/modprobe.d/r8168-dkms.conf
+
+	# files in /etc/extensions will be auto-mounted by systemd-sysext
+	mkdir /etc/extensions
+
+	echo "" >> /etc/environment
+	echo "SDL_GAMECONTROLLER_IGNORE_DEVICES=\"0x045E/0x028E\"" >> /etc/environment
+	echo "" >> /etc/environment
+	echo "# This makes a few games (like Ori and the blind forest) crash as startup for not being able to create the rendering surface" >> /etc/environment
+	echo "#ENABLE_GAMESCOPE_WSI=1" >> /etc/environment
 }
