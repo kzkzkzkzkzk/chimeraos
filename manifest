@@ -126,8 +126,6 @@ export PACKAGES="\
 	plasma \
 	plasma-desktop \
 	discover \
-	plasma-meta \
-	plapma-workspace \
 	kcalc \
 	kwin \
 	sddm \
