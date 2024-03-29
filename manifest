@@ -135,7 +135,6 @@ export PACKAGES="\
 	dolphin-plugins \
 	qjackctl \
 	libffado \
-	pipewire-jack-client \
 	realtime \
 	qtractor \
 "
