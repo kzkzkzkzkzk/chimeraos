@@ -135,9 +135,6 @@ export PACKAGES="\
 	kdenetwork-filesharing \
 	dolphin-plugins \
 	qjackctl \
-	jack2 \
-	lib32-jack2 \
-	jack2-dbus \
 	libffado \
 	pipewire-jack-client \
 	realtime \
