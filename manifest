@@ -146,7 +146,7 @@ export PACKAGES="\
 	realtime \
 	qtractor \
 	dbus \
-	qt5-base \
+	qt6-base \
 "
 
 export PACKAGE_OVERRIDES="\
