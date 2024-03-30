@@ -243,8 +243,6 @@ postinstallhook() {
 	## now all orphan dependencies must be removed (to spare space)
 	#pacman -Qqd | pacman -Rsu - 
 
-	# Remove discover software
-	pacman -Rs --noconfirm discover
 	
 	#yes|pacman -Scc
 	ls -lah /var/cache/pacman
