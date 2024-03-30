@@ -14,6 +14,14 @@ export KERNEL_PACKAGE="linux-neroreflex"
 export KERNEL_PACKAGE_ORIGIN="local"
 
 export PACKAGES="\
+	cmake \
+	clang \
+	llvm \
+	lld \
+	flex \
+	bison \
+	bc \
+	m4 \
 	accountsservice \
 	acpi_call-dkms \
 	alsa-firmware \
