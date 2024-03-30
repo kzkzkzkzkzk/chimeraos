@@ -124,6 +124,7 @@ export PACKAGES="\
 	zip \
 	plasma \
 	plasma-desktop \
+	plasma-meta \
 	discover \
 	kcalc \
 	kwin \
