@@ -145,8 +145,8 @@ export PACKAGES="\
 	libffado \
 	realtime \
 	qtractor \
-	dbus \
-	qt6-base \
+	qt6-tools \
+	qt5-tools \
 "
 
 export PACKAGE_OVERRIDES="\
