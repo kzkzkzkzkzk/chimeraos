@@ -125,7 +125,6 @@ export PACKAGES="\
 	plasma \
 	plasma-desktop \
 	plasma-meta \
-	discover \
 	kcalc \
 	kwin \
 	sddm \
@@ -160,7 +159,6 @@ export PACKAGE_OVERRIDES="\
 	https://github.com/ChimeraOS/mesa-chimeraos/releases/download/24.0.4-chos1-1/vulkan-radeon-1--24.0.4.chos1-1-x86_64.pkg.tar.zst \
 	https://github.com/ChimeraOS/mesa-chimeraos/releases/download/24.0.4-chos1-1/vulkan-swrast-1--24.0.4.chos1-1-x86_64.pkg.tar.zst \
 	https://github.com/rog-ally-gaming/rogue-enemy/releases/download/v2.2.4-1/rogue-enemy-2.2.4-1-x86_64.pkg.tar.zst \
-	https://ftp5.gwdg.de/pub/linux/archlinux/extra/os/x86_64/discover-6.0.2-3-x86_64.pkg.tar.zst \
 "
 
 # Each entry is the clone url (https://aur.archlinux.org/{AUR_PACKAGE}.git)
