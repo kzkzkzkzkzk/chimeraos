@@ -146,6 +146,7 @@ export PACKAGES="\
 	realtime \
 	qtractor \
 	dbus \
+	qt5-base \
 "
 
 export PACKAGE_OVERRIDES="\
@@ -176,7 +177,6 @@ export AUR_PACKAGES="\
 	asusctl \
 	bcm20702a1-firmware \
 	boxtron \
-	qtchooser \
 	chimera \
 	chimeraos-device-quirks-git \
 	downgrade \
