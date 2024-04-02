@@ -271,10 +271,10 @@ postinstallhook() {
 	# Add sudo permissions
 	sed -i '/%wheel ALL=(ALL:ALL) ALL/s/^# //g' /etc/sudoers
 	echo "${USERNAME} ALL=(ALL) NOPASSWD: /usr/bin/dmidecode -t 11
-	" > /etc/sudoers.d/steam
+	" >/etc/sudoers.d/steam
 	echo "${USERNAME} ALL=(ALL) NOPASSWD: /usr/bin/chimera-session-use-gamescope
 	${USERNAME} ALL=(ALL) NOPASSWD: /usr/share/chimera/bin/power-tool
-	" > /etc/sudoers.d/chimera
+	" >/etc/sudoers.d/chimera
 
 	# Add chrt permission
 	echo "${USERNAME} ALL=(ALL) NOPASSWD: /usr/bin/chrt" > /etc/sudoers.d/realtime
