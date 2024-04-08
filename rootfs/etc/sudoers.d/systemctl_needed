@@ -3,3 +3,7 @@ ALL ALL=(ALL) NOPASSWD: /usr/bin/systemctl enable --now rogue-enemy
 ALL ALL=(ALL) NOPASSWD: /usr/bin/systemctl disable --now rogue-enemy
 ALL ALL=(ALL) NOPASSWD: /usr/bin/systemctl enable --now ryzenadj-controller
 ALL ALL=(ALL) NOPASSWD: /usr/bin/systemctl disable --now ryzenadj-controller
+ALL ALL=(ALL) NOPASSWD: /usr/bin/systemctl enable --now snapd.socket
+ALL ALL=(ALL) NOPASSWD: /usr/bin/systemctl disable --now snapd.socket
+ALL ALL=(ALL) NOPASSWD: /usr/bin/systemctl enable --now snapd.apparmor.service
+ALL ALL=(ALL) NOPASSWD: /usr/bin/systemctl disable --now snapd.apparmor.service
