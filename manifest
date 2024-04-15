@@ -205,7 +205,7 @@ export AUR_PACKAGES="\
 	ryzenadj-git \
 	steam_notif_daemon \
 	steam-removable-media-git \
-	steam-powerbutton-git \
+	steam-powerbuttond-git \
 	wyvern \
 	zenergy-dkms-git \
 "
