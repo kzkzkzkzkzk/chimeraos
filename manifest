@@ -198,7 +198,7 @@ export AUR_PACKAGES="\
 	libretro-virtualjaguar-git \
 	kanit-font \
 	nintendo-udev \
-	pikaur \
+	pikaur-git \
 	powerstation-bin \
 	python-vdf \
 	retroarch-autoconfig-udev-git \
