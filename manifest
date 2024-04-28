@@ -180,6 +180,7 @@ export AUR_PACKAGES="\
 	asusctl \
 	bcm20702a1-firmware \
 	boxtron \
+	chimera \
 	chimeraos-device-quirks-git \
 	downgrade \
 	frzr \
@@ -204,6 +205,7 @@ export AUR_PACKAGES="\
 	rtl8814au-dkms-git \
 	rtl88x2bu-dkms-git \
 	rtl8821au-dkms-git \
+	retroarch-autoconfig-udev-git \
 	ryzenadj-git \
 	steam_notif_daemon \
 	steam-removable-media-git \
@@ -230,6 +232,7 @@ export SERVICES="\
 "
 
 export USER_SERVICES="\
+	chimera.service \
 	pipewire \
 	steam-patch.service \
 "
