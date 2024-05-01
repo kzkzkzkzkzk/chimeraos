@@ -280,8 +280,6 @@ postinstallhook() {
 	# Add chrt permission
 	echo "${USERNAME} ALL=(ALL) NOPASSWD: /usr/bin/chrt" > /etc/sudoers.d/realtime
 
-	# disable retroarch menu in joypad configs
-	find /usr/share/libretro/autoconfig -type f -name '*.cfg' | xargs -d '\n' sed -i '/input_menu_toggle_btn/d'
 
 	# download and add racing wheel udev rules
 	pushd /usr/lib/udev/rules.d
