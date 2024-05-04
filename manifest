@@ -180,6 +180,7 @@ export AUR_PACKAGES="\
 	asusctl \
 	bcm20702a1-firmware \
 	boxtron \
+	chimeraos-device-quirks-git \
 	downgrade \
 	frzr \
 	gamescope-plus \
