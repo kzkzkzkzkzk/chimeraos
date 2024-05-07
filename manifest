@@ -170,7 +170,6 @@ export PACKAGE_OVERRIDES="\
 	https://github.com/ChimeraOS/mesa-chimeraos/releases/download/24.0.5-chos1-1/vulkan-radeon-1--24.0.5.chos1-1-x86_64.pkg.tar.zst \
 	https://github.com/ChimeraOS/mesa-chimeraos/releases/download/24.0.5-chos1-1/vulkan-nouveau-1--24.0.5.chos1-1-x86_64.pkg.tar.zst \
 	https://github.com/ChimeraOS/mesa-chimeraos/releases/download/24.0.5-chos1-1/vulkan-swrast-1--24.0.5.chos1-1-x86_64.pkg.tar.zst \
-	https://github.com/rog-ally-gaming/rogue-enemy/releases/download/v2.2.4-1/rogue-enemy-2.2.4-1-x86_64.pkg.tar.zst \
 "
 
 # Each entry is the clone url (https://aur.archlinux.org/{AUR_PACKAGE}.git)
@@ -187,6 +186,7 @@ export AUR_PACKAGES="\
 	gamescope-session-steam-git \
 	gamescope-session-steam-plus-git \
 	hhfc-git \
+	inputplumber-bin \
 	legendary \
 	lib32-gamescope-plus \
 	lib32-gperftools \
@@ -217,7 +217,7 @@ export SERVICES="\
 	bluetooth \
 	bluetooth-workaround \
 	fstrim.timer \
-	rogue-enemy \
+	inputplumber \
 	haveged \
 	home-swapfile.swap \
 	powerstation \
