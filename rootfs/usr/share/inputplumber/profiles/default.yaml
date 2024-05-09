@@ -19,15 +19,10 @@ mapping:
           button: Guide
       - gamepad:
           button: South
-  - name: Keyboard
+  - name: steamemu
     source_event:
       gamepad:
-        button: Keyboard
+        button: RightPaddle1
     target_events:
-      - keyboard:　KeyEsc
-  - name: QuickAccess2
-    source_event:
-      gamepad:
-        button: QuickAccess2
-    target_events:
-      - keyboard: KeyG
+      - gamepad:
+          button: Guide
