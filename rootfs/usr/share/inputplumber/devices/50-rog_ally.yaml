@@ -1,0 +1,46 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/ShadowBlip/InputPlumber/main/rootfs/usr/share/inputplumber/schema/composite_device_v1.json
+# Schema version number
+version: 1
+
+# The type of configuration schema
+kind: CompositeDevice
+
+# Name of the composite device mapping
+name: ASUS ROG Ally
+
+# Only use this profile if *any* of the given matches matches. If this list is
+# empty, then the source devices will *always* be checked.
+# /sys/class/dmi/id/product_name
+matches:
+  - dmi_data:
+      board_name: RC71L
+      sys_vendor: ASUSTeK COMPUTER INC.
+
+# One or more source devices to combine into a single virtual device. The events
+# from these devices will be watched and translated according to the key map.
+source_devices:
+  - group: gamepad
+    evdev:
+      name: Microsoft X-Box 360 pad
+      phys_path: usb-0000:0[8-a]:00.3-2/input0
+  - group: keyboard
+    unique: false
+    evdev:
+      name: Asus Keyboard
+      phys_path: usb-0000:0[8-a]:00.3-3/input[0-2]
+  - group: imu
+    iio:
+      name: bmi323-imu
+      mount_matrix:
+        x: [0, 0, 1]
+        y: [0, -1, 0]
+        z: [-1, 0, 0]
+
+# The target input device(s) that the virtual device profile can use
+target_devices:
+  - ds5
+  - mouse
+  - keyboard
+
+# The ID of a device event mapping in the 'event_maps' folder
+capability_map_id: aly1
