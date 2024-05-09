@@ -1,0 +1,33 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/ShadowBlip/InputPlumber/main/rootfs/usr/share/inputplumber/schema/device_profile_v1.json
+# Schema version number
+version: 1
+
+# The type of configuration schema
+kind: DeviceProfile
+
+# Name of the device profile
+name: Default
+
+# Profile mappings
+mapping:
+  - name: QuickAccess
+    source_event:
+      gamepad:
+        button: QuickAccess
+    target_events:
+      - gamepad:
+          button: Guide
+      - gamepad:
+          button: South
+  - name: Keyboard
+    source_event:
+      gamepad:
+        button: Keyboard
+    target_events:
+      - keyboard:　KeyEsc
+  - name: QuickAccess2
+    source_event:
+      gamepad:
+        button: QuickAccess2
+    target_events:
+      - keyboard: KeyG
