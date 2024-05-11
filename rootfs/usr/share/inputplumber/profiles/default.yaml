@@ -19,10 +19,3 @@ mapping:
           button: Guide
       - gamepad:
           button: South
-  - name: steamemu
-    source_event:
-      gamepad:
-        button: RightPaddle1
-    target_events:
-      - gamepad:
-          button: Guide
