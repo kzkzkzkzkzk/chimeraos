@@ -18,7 +18,7 @@ mapping:
       - keyboard: KeyF16
     target_event:
       gamepad:
-        button: LeftPaddle2 #Select
+        button: Guide #Select
   - name: Control Center (Long)
     source_events:
       - keyboard: KeyLeftCtrl
@@ -26,19 +26,19 @@ mapping:
       - keyboard: KeyDelete
     target_event:
       gamepad:
-        button: Guide
+        button: LeftTouchpadPress
   - name: Armory Crate (Short)
     source_events:
       - keyboard: KeyProg1
     target_event:
       gamepad:
-        button: RightPaddle2 #Start
+        button: QuickAccess #Start
   - name: Armory Crate (Long)
     source_events:
       - keyboard: KeyF17
     target_event:
       gamepad:
-        button: QuickAccess
+        button: RightTouchpadPress
   - name: Left Paddle
     source_events:
       - keyboard: KeyF14
