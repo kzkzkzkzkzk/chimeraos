@@ -27,7 +27,7 @@ mapping:
       - gamepad:
           button: Guide
       - gamepad:
-          button: North
+          button: DPadLeft
   - name: QuickAccess2
     source_event:
       gamepad:
