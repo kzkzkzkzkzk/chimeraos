@@ -25,7 +25,8 @@ mapping:
       - keyboard: KeyLeftAlt
       - keyboard: KeyDelete
     target_event:
-      keyboard: KeyG
+      gamepad:
+        button: Keyboard
   - name: Armory Crate (Short)
     source_events:
       - keyboard: KeyProg1
@@ -36,20 +37,20 @@ mapping:
     source_events:
       - keyboard: KeyF17
     target_event:
-      keyboard: KeyM
-        
+      gamepad:
+        button: QuickAccess2
   - name: Left Paddle
     source_events:
       - keyboard: KeyF14
     target_event:
       gamepad:
-        button: Guide
+        button: LeftPaddle1
   - name: Right Paddle
     source_events:
       - keyboard: KeyF15
     target_event:
       gamepad:
-        button: Guide
+        button: RightPaddle1
 
 # List of events to filter from the source devices
 filtered_events: []
