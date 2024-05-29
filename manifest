@@ -95,6 +95,7 @@ export PACKAGES="\
 	openrazer-daemon \
 	openssh \
 	p7zip \
+	mangohud \
 	pipewire \
 	pipewire-alsa \
 	pipewire-pulse \
