@@ -183,6 +183,7 @@ export AUR_PACKAGES="\
 	chimeraos-device-quirks-git \
 	downgrade \
 	frzr \
+	xorg-xwayland \
 	gamescope-session-steam-git \
 	gamescope-session-steam-plus-git \
 	hhfc-git \
