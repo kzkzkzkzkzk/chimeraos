@@ -182,7 +182,6 @@ export AUR_PACKAGES="\
 	boxtron \
 	chimeraos-device-quirks-git \
 	downgrade \
-	xorg-xwayland-git \
 	frzr \
 	gamescope-session-steam-git \
 	gamescope-session-steam-plus-git \
